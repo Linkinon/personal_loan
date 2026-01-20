@@ -20,9 +20,7 @@ const PersonalLoanPage = () => {
 
           {/* Sub Text */}
           <p className="text-center text-[17px] text-gray-600 max-w-4xl mx-auto mb-4 px-2">
-            It doesn’t always come from one big expense. For a lot of people, it’s a mix of
-            credit cards, everyday bills, and not having enough room to breathe each month.
-            That’s when personal loans start showing up as an option worth looking at.
+            Credit card balances, everyday household bills, and unexpected auto repairs are putting pressure on monthly budgets.As costs continue to rise across the U.S., many people are reviewing personal loan options to see if consolidating or restructuring payments could help them stay on track moving forward.
           </p>
 
           {/* Hero Image */}
