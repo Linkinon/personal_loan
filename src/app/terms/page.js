@@ -12,7 +12,7 @@ const page = () => {
       <div className="max-w-5xl mx-auto px-4 py-10">
         <h1 className="text-3xl font-bold mb-2">Terms of Use</h1>
         <p className="text-sm text-gray-500 mb-6">
-          Last Updated: <span className="italic">[Insert Date]</span>
+          Last Updated: <span className="italic">01-20-2026</span>
         </p>
 
         <p className="mb-4">

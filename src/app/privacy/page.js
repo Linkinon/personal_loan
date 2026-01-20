@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Privacy Policy | ----Daily Smart Saving-----",
+  title: "Privacy Policy | DailyPennyGuide",
   description:
     "Learn how Daily Smart Saving collects, uses, and protects your personal information. Read our Privacy Policy for full details.",
 };
