@@ -4,10 +4,10 @@ import React from "react";
 const PersonalLoanPage = () => {
   return (
     <div className="text-gray-900 min-h-screen font-sans">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3">
         
         {/* Top Note */}
-        <div className="text-center text-[10px]  text-red-700 font-semibold mb-3">
+        <div className="text-center text-[10px] md:text-xs  text-red-700 font-semibold">
           This page is a paid advertisement and referral service for personal loan options.
           It is not a government website.
         </div>
@@ -16,12 +16,12 @@ const PersonalLoanPage = () => {
         <div className="bg-white rounded-2xl">
           
           {/* Heading */}
-          <h1 className="text-center text-xl md:text-3xl  font-semibold my-5 px-2">
-            Credit Cards, Bills, and Auto Repairs Are Adding Up — That’s Why Personal Loans Are Back in the Conversation Across America in 2026
+          <h1 className="text-center text-xl md:text-3xl  font-semibold my-2 px-2 leading-5 md:leading-8">
+           <span className="text-red-500">Credit Cards</span>,<span className="text-red-500">Bills</span>, and <span className="text-red-500">Auto Repairs</span> Are Adding Up — That’s Why Personal<span className="text-red-500"> Loans </span> Are Back in the Conversation Across America in <span className="text-red-500">2026</span>
           </h1>
 
           {/* Sub Text */}
-          <p className="text-justify text-sm sm:text-md text-gray-600 max-w-4xl mx-auto mb-4 px-2">
+          <p className="text-justify text-xs md:text-md text-gray-600 max-w-4xl mx-auto mb-2 px-2">
             Credit card balances, everyday household bills, and unexpected auto repairs are putting pressure on monthly budgets.
             As costs continue to rise across the U.S., many people are reviewing personal loan options to see if consolidating
             or restructuring payments could help them stay on track moving forward.
