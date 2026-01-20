@@ -16,7 +16,7 @@ const PersonalLoanPage = () => {
         <div className="bg-white rounded-2xl">
           
           {/* Heading */}
-          <h1 className="text-center text-2xl sm:text-4xl font-semibold my-5 px-2">
+          <h1 className="text-center text-xl sm:text-4xl font-semibold my-5 px-2">
             When Finances Start Feeling Hard to Juggle, Many People Look at Personal Loans
           </h1>
 
