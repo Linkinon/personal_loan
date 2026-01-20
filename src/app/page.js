@@ -30,7 +30,7 @@ const PersonalLoanPage = () => {
           {/* Hero Image */}
           <div className="border-y border-gray-200 bg-gray-200 rounded overflow-hidden">
             <img
-              src="/preimg.webp"
+              src="/personal-loan.jpeg"
               alt="Person reviewing bills and finances at home"
               className="w-full h-55 sm:h-auto object-cover"
             />
