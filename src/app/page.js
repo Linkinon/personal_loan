@@ -16,12 +16,12 @@ const PersonalLoanPage = () => {
         <div className="bg-white rounded-2xl">
           
           {/* Heading */}
-          <h1 className="text-center text-lg md:text-3xl  font-semibold mb-4 px-2 leading-5 md:leading-normal">
+          <h1 className="text-center text-lg md:text-3xl font-semibold mb-4 px-2 leading-5 md:leading-normal">
            <span className="text-red-700">Credit Cards</span>,<span className="text-red-700"> Bills</span>, and <span className="text-red-700">Auto Repairs</span> Are Adding Up — That’s Why Personal<span className="text-red-700"> Loans </span> Are Back in the Conversation Across America in <span className="text-red-700">2026</span>
           </h1>
 
           {/* Sub Text */}
-          <p className="text-justify text-[10px] md:text-lg text-gray-600 max-w-4xl mx-auto mb-4 px-2">
+          <p className="text-justify text-[10px] md:text-base text-gray-600 max-w-4xl mx-auto mb-4 px-2">
             Credit card balances, everyday household bills, and unexpected auto repairs are putting pressure on monthly budgets.
             As costs continue to rise across the U.S., many people are reviewing personal loan options to see if consolidating
             or restructuring payments could help them stay on track moving forward.
@@ -38,44 +38,44 @@ const PersonalLoanPage = () => {
 
           {/* CTA */}
           <a
-            href="CTA_REDIRECT_URL"
-            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-base sm:text-sm font-semibold rounded-lg transition"
+            href="https://h0mlr.ttrk.io/click"
+            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-xs md:text-base font-semibold rounded-lg transition"
           >
             See Options →
           </a>
 
           {/* Section 1 */}
           <div className="p-3 sm:p-6">
-            <h2 className="text-center text-lg sm:text-2xl font-semibold mb-4">
+            <h2 className="text-center text-base md:text-lg font-semibold mb-4">
               Common Reasons People Explore Personal Loans
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-sm md:text-base font-semibold mb-1">
                   Credit Cards That Won’t Go Away
                 </h3>
-                <p className="text-base md:text-lg text-gray-600">
+                <p className="text-sm md:text-base text-gray-600">
                   Carrying balances month after month can feel like running in place.
                   Many people look at loans as a way to replace revolving debt with a clear payoff plan.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-sm md:text-base font-semibold mb-1">
                   Too Many Bills, One Paycheck
                 </h3>
-                <p className="text-base sm:text-md text-gray-600">
+                <p className="text-sm md:text-base text-gray-600">
                   Rent, utilities, insurance, groceries — it adds up fast.
                   Some borrowers use personal loans to smooth out cash flow instead of falling behind.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-sm font-semibold mb-1">
                   Simplifying Their Finances
                 </h3>
-                <p className="text-base sm:text-md text-gray-600">
+                <p className="text-sm md:text-base text-gray-600">
                   Managing multiple cards or payments can be stressful.
                   A personal loan may help consolidate things into one monthly payment.
                 </p>
@@ -85,11 +85,11 @@ const PersonalLoanPage = () => {
 
           {/* Section 2 */}
           <div className="p-4 sm:p-6">
-            <h2 className="text-center text-lg sm:text-2xl font-semibold mb-4">
+            <h2 className="text-center text-base md:text-lg font-semibold mb-4">
               Other Situations Where People Consider a Loan
             </h2>
 
-            <ul className="max-w-4xl mx-auto text-base list-disc pl-5 space-y-2 text-justify">
+            <ul className="max-w-4xl mx-auto text-sm md:text-base list-disc pl-5 space-y-2 text-justify">
               <li>Covering large planned expenses without draining savings</li>
               <li>Replacing short-term fixes that are no longer working</li>
               <li>Getting back on track after falling a little behind</li>
@@ -97,7 +97,7 @@ const PersonalLoanPage = () => {
               <li>Comparing loan terms before relying more on credit cards</li>
             </ul>
 
-            <p className="text-md sm:text-md text-gray-500 mt-3 max-w-4xl mx-auto">
+            <p className="text-sm md:text-base text-gray-500 mt-3 max-w-4xl mx-auto">
               Personal loans are not right for everyone. Availability, rates, and terms depend on
               lender criteria, credit profile, income, and state regulations.
             </p>
@@ -105,11 +105,11 @@ const PersonalLoanPage = () => {
 
           {/* Section 3 */}
           <div className="p-4 sm:p-6">
-            <h2 className="text-center text-lg md:text-xl font-semibold mb-4">
+            <h2 className="text-center text-base md:text-lg font-semibold mb-4">
               How This Personal Loan Options Check Works
             </h2>
 
-            <div className="space-y-2 text-base sm:text-md">
+            <div className="space-y-2 text-sm md:text-base">
               <p><strong>Step 1:</strong> Click “See If You Qualify” to continue.</p>
               <p><strong>Step 2:</strong> Answer a few questions about your finances and location.</p>
               <p><strong>Step 3:</strong> Review available options and decide whether moving forward makes sense.</p>
@@ -121,8 +121,8 @@ const PersonalLoanPage = () => {
             </div>
 
             <a
-              href="CTA_REDIRECT_URL"
-              className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg transition"
+              href="https://h0mlr.ttrk.io/click"
+              className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-sm md:text-base font-semibold rounded-lg transition"
             >
               See Options →
             </a>
