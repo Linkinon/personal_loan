@@ -2,7 +2,7 @@ import React from 'react'
 
 function privacy() {
   return (
-    <div>privacy</div>
+    <div>privacy PAge</div>
   )
 }
 
