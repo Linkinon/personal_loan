@@ -21,7 +21,7 @@ const PersonalLoanPage = () => {
           </h1>
 
           {/* Sub Text */}
-          <p className="text-center text-sm sm:text-[20px] text-gray-600 max-w-4xl mx-auto mb-4 px-2">
+          <p className="text-center text-sm sm:text-[17px] text-gray-600 max-w-4xl mx-auto mb-4 px-2">
             Credit card balances, everyday household bills, and unexpected auto repairs are putting pressure on monthly budgets.
             As costs continue to rise across the U.S., many people are reviewing personal loan options to see if consolidating
             or restructuring payments could help them stay on track moving forward.
