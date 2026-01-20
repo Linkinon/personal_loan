@@ -17,7 +17,7 @@ const PersonalLoanPage = () => {
           
           {/* Heading */}
           <h1 className="text-center text-xl md:text-4xl  font-semibold my-5 px-2">
-            When Finances Start Feeling Hard to Juggle, Many People Look at Personal Loans
+            Credit Cards, Bills, and Auto Repairs Are Adding Up — That’s Why Personal Loans Are Back in the Conversation Across America in 2026
           </h1>
 
           {/* Sub Text */}
