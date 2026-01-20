@@ -39,30 +39,30 @@ const PersonalLoanPage = () => {
           {/* CTA */}
           <a
             href="CTA_REDIRECT_URL"
-            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg transition"
+            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-base sm:text-sm font-semibold rounded-lg transition"
           >
             Available Offers →
           </a>
 
           {/* Section 1 */}
           <div className="p-4 sm:p-6">
-            <h2 className="text-center text-lg sm:text-2xl font-semibold mb-4">
+            <h2 className="text-center text-md sm:text-2xl font-semibold mb-4">
               Common Reasons People Explore Personal Loans
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-md font-semibold mb-1">
                   Credit Cards That Won’t Go Away
                 </h3>
-                <p className="text-md sm:text-md text-gray-600">
+                <p className="text-md sm:text-sm text-gray-600">
                   Carrying balances month after month can feel like running in place.
                   Many people look at loans as a way to replace revolving debt with a clear payoff plan.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-md font-semibold mb-1">
                   Too Many Bills, One Paycheck
                 </h3>
                 <p className="text-md sm:text-md text-gray-600">
@@ -72,7 +72,7 @@ const PersonalLoanPage = () => {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-1">
+                <h3 className="text-md font-semibold mb-1">
                   Simplifying Their Finances
                 </h3>
                 <p className="text-md sm:text-md text-gray-600">
