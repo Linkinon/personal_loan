@@ -16,12 +16,12 @@ const PersonalLoanPage = () => {
         <div className="bg-white rounded-2xl">
           
           {/* Heading */}
-          <h1 className="text-center text-xl md:text-4xl  font-semibold my-5 px-2">
+          <h1 className="text-center text-xl md:text-3xl  font-semibold my-5 px-2">
             Credit Cards, Bills, and Auto Repairs Are Adding Up — That’s Why Personal Loans Are Back in the Conversation Across America in 2026
           </h1>
 
           {/* Sub Text */}
-          <p className="text-justify text-sm sm:text-[17px] text-gray-600 max-w-4xl mx-auto mb-4 px-2">
+          <p className="text-justify text-sm sm:text-md text-gray-600 max-w-4xl mx-auto mb-4 px-2">
             Credit card balances, everyday household bills, and unexpected auto repairs are putting pressure on monthly budgets.
             As costs continue to rise across the U.S., many people are reviewing personal loan options to see if consolidating
             or restructuring payments could help them stay on track moving forward.
