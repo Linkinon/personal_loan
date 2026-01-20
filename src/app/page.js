@@ -7,7 +7,7 @@ const PersonalLoanPage = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
         
         {/* Top Note */}
-        <div className="text-center text-xs sm:text-sm text-red-700 font-semibold mb-3">
+        <div className="text-center text-[10px] sm:text-sm text-red-700 font-semibold mb-3">
           This page is a paid advertisement and referral service for personal loan options.
           It is not a government website.
         </div>
