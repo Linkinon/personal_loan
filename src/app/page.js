@@ -7,7 +7,7 @@ const PersonalLoanPage = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3">
         
         {/* Top Note */}
-        <div className="text-center text-[7px] md:text-[14px]  text-red-700 font-semibold mb-2">
+        <div className="text-center text-[7px] md:text-[10px]  text-red-700 font-semibold mb-2">
           This page is a paid advertisement and referral service for personal loan options.
           It is not a government website.
         </div>
@@ -39,7 +39,7 @@ const PersonalLoanPage = () => {
           {/* CTA */}
           <a
             href="https://h0mlr.ttrk.io/click"
-            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-xs md:text-base font-semibold rounded-lg transition"
+            className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-sm font-semibold rounded-lg transition"
           >
             See Options →
           </a>
@@ -115,14 +115,14 @@ const PersonalLoanPage = () => {
               <p><strong>Step 3:</strong> Review available options and decide whether moving forward makes sense.</p>
             </div>
 
-            <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-xs sm:text-sm text-red-900 mt-4 max-w-4xl mx-auto">
+            <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-xs  text-red-900 mt-4 max-w-4xl mx-auto">
               You’re not applying for a loan on this page.
               Reviewing options does not require you to accept an offer or move forward.
             </div>
 
             <a
               href="https://h0mlr.ttrk.io/click"
-              className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-sm md:text-base font-semibold rounded-lg transition"
+              className="block w-full sm:max-w-4xl mx-auto my-4 bg-red-600 hover:bg-red-700 text-white text-center py-3 sm:py-4 text-sm  font-semibold rounded-lg transition"
             >
               See Options →
             </a>
@@ -131,7 +131,7 @@ const PersonalLoanPage = () => {
 
         {/* Footer */}
         <footer className="mt-6 text-xs sm:text-sm text-gray-600 text-center space-y-3 px-2">
-          <div className="flex flex-wrap justify-center gap-2">
+          <div className="flex flex-wrap justify-center gap-2 text-xs">
             <Link href="/privacy" className="underline text-gray-900">Privacy Policy</Link>
             <span>|</span>
             <Link href="/terms" className="underline text-gray-900">Terms of Use</Link>

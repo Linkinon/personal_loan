@@ -3,7 +3,7 @@ import React from "react";
 export const metadata = {
   title: "Privacy Policy | DailyPennyGuide",
   description:
-    "Learn how Daily Smart Saving collects, uses, and protects your personal information. Read our Privacy Policy for full details.",
+    "Learn how Daily Penny Guide collects, uses, and protects your personal information. Read our Privacy Policy for full details.",
 };
 
 const page = () => {
@@ -16,11 +16,11 @@ const page = () => {
         </p>
 
         <p className="mb-4">
-          Daily Smart Saving is committed to respecting your privacy and
+          Daily Penny Guide is committed to respecting your privacy and
           protecting your personal data. This Privacy Policy explains how Daily
           Smart Saving (“we”, “us”, or “our”) collects and uses information of our
           users when they visit our website,
-          <strong> www.dailysmartsaving.com</strong>.
+          <strong> www.dailypennyguide.com</strong>.
         </p>
 
         <p className="mb-6">
@@ -139,7 +139,7 @@ const page = () => {
             9. Limitation of Liability
           </h2>
           <p>
-            Daily Smart Saving shall not be liable for any damages, losses, or
+            Daily Penny Guide shall not be liable for any damages, losses, or
             misuse of information due to third-party activities, hacking, or
             force majeure events.
           </p>
@@ -169,7 +169,7 @@ const page = () => {
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">12. Indemnification</h2>
           <p>
-            You agree to indemnify and hold Daily Smart Saving harmless from any
+            You agree to indemnify and hold Daily Penny Guide harmless from any
             claims, losses, damages, or legal expenses arising from misuse of the
             website or its services.
           </p>
