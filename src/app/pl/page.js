@@ -80,7 +80,7 @@ export default function PersonalLoanLander() {
                 Takes 30 seconds • No credit impact
               </p>
 
-              <button className="mt-5 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
+              <button href="https://h0mlr.ttrk.io/click" className="mt-5 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
                 Check My Options →
               </button>
 
