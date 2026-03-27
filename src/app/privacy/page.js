@@ -215,7 +215,7 @@ const page = () => {
               href="mailto:contact@dailysmartsaving.com"
               className="text-blue-600 underline"
             >
-              contact@gmail.com
+              contact@dailypennyguidegmail.com
             </a>
           </p>
         </section>

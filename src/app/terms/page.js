@@ -152,7 +152,7 @@ const page = () => {
           <p className="mb-1">
             For questions about these Terms of Use:
           </p>
-          <p>Email: <a href="mailto:adops@linkinon.com" className="text-blue-600 underline">adops@linkinon.com</a></p>
+          <p>Email: <a href="mailto:adops@linkinon.com" className="text-blue-600 underline">contact@dailypennyguide..com</a></p>
           <p>
             Address: 1007 N Orange St. 4th Floor Ste 1382, Wilmington, Delaware
             19801, United States.
