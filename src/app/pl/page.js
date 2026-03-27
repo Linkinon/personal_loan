@@ -80,9 +80,9 @@ export default function PersonalLoanLander() {
                 Takes 30 seconds • No credit impact
               </p>
 
-              <button href="https://h0mlr.ttrk.io/click" className="mt-5 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
+              <a href="https://h0mlr.ttrk.io/click" className="mt-5 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
                 Check My Options →
-              </button>
+              </a>
 
               <div className="grid grid-cols-3 gap-2 mt-5 text-xs text-gray-500 text-center">
                 <div className="bg-white py-2 rounded-lg">🔒 Secure</div>
@@ -139,9 +139,9 @@ export default function PersonalLoanLander() {
             </div>
 
             {/* FINAL CTA */}
-            <button className="w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
+            <a href="https://h0mlr.ttrk.io/click" className="w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md">
               Check My Options →
-            </button>
+            </a>
 
             <p className="text-center text-xs text-gray-400 mt-2">
               🔥 {count} people in {city} are checking right now
