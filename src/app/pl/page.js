@@ -1,9 +1,40 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function NewsPrelander() {
+  const [location, setLocation] = useState("your area");
+  const [approvalCount, setApprovalCount] = useState(11795);
+
+  useEffect(() => {
+    // GEO LOCATION (CITY LEVEL)
+    const fetchLocation = async () => {
+      try {
+        const res = await fetch("https://ipapi.co/json/");
+        const data = await res.json();
+
+        if (data?.city) {
+          setLocation(data.city); // e.g. Delhi / Houston
+        } else if (data?.region) {
+          setLocation(data.region);
+        }
+      } catch (err) {
+        console.log("Geo fetch failed");
+      }
+    };
+
+    // DYNAMIC NUMBERS
+    const base = 11500;
+    const random = Math.floor(Math.random() * 800); // variation
+    setApprovalCount(base + random);
+
+    fetchLocation();
+  }, []);
+
   return (
-    <div className="bg-gray-100 min-h-screen md:py-6 md:px-4">
+    <div className="bg-gray-100 min-h-screen md:py-3 md:px-4">
       <div className="max-w-3xl mx-auto bg-white shadow-md rounded-xl overflow-hidden">
 
         {/* Header */}
@@ -12,7 +43,8 @@ export default function NewsPrelander() {
             🔴 Trending • Updated Today
           </p>
           <h1 className="text-2xl md:text-3xl font-bold mt-2 leading-tight md:leading-8">
-            Residents In Your Area Are Checking This Simple Way To Get Up To $50,000 — With Lower Monthly Payments
+            Residents In <span className="text-green-500">{location}</span> Are Checking 
+            This Simple Way To Get Up To $50,000 — With <span className="text-green-500"> Lower Monthly Payments</span>
           </h1>
           <p className="text-sm text-gray-500 mt-1">
             By Financial Insights Desk • 2 min read
@@ -20,8 +52,7 @@ export default function NewsPrelander() {
         </div>
 
         {/* Hero Image */}
-        <div className="w-full bg-gray-300 flex items-center justify-center text-gray-500 overflow-hidden 
-                        md:max-h-[260px]">
+        <div className="w-full bg-gray-300 flex items-center justify-center text-gray-500 overflow-hidden md:max-h-[260px]">
           <Image
             alt="personal-loan image"
             src={"/personal-loan.jpeg"}
@@ -36,7 +67,7 @@ export default function NewsPrelander() {
         <div className="px-5 py-3 md:py-2 space-y-3 text-gray-700 text-[15px] leading-relaxed">
 
           <p>
-            Many people across your area are quietly switching to a smarter way
+            Many people across {location} are quietly switching to a smarter way
             of managing their finances — and it’s helping them reduce monthly
             payments without increasing stress.
           </p>
@@ -56,14 +87,12 @@ export default function NewsPrelander() {
           <p>
             According to recent data, over{" "}
             <span className="font-semibold text-green-600">
-              11,795 people were approved this month
+              {approvalCount.toLocaleString()} people were approved this month
             </span>{" "}
             using a quick online check that takes less than 30 seconds.
           </p>
 
-          <p>
-            This method allows users to:
-          </p>
+          <p>This method allows users to:</p>
 
           <ul className="list-disc pl-5 space-y-1">
             <li>Combine multiple debts into one</li>
@@ -78,11 +107,9 @@ export default function NewsPrelander() {
 
           {/* Social Proof */}
           <div className="bg-gray-50 border rounded-lg p-4">
-            <p className="text-sm">
-              ⭐ Rated 4.8/5 by users
-            </p>
+            <p className="text-sm">⭐ Rated 4.8/5 by users</p>
             <p className="text-sm mt-1">
-              🔥 18 people are checking options near you right now
+              🔥 {Math.floor(Math.random() * 15) + 12} people in {location} are checking options right now
             </p>
           </div>
 
@@ -91,6 +118,7 @@ export default function NewsPrelander() {
             they can save after checking their options.
           </p>
 
+          
           {/* FINAL CTA */}
           <div className="text-center pt-2">
             <Link href="https://h0mlr.ttrk.io/click" target="_blank">
@@ -108,9 +136,9 @@ export default function NewsPrelander() {
         {/* Footer */}
         <div className="text-center text-xs text-gray-300 py-4 ">
           <span>
-            <Link href="/privacy" className=" text-gray-500">Privacy Policy</Link>
+            <Link href="/privacy" className="text-gray-500">Privacy Policy</Link>
             <span> | </span>
-            <Link href="/terms" className=" text-gray-500">Terms of Use</Link>
+            <Link href="/terms" className="text-gray-500">Terms of Use</Link>
           </span>
         </div>
 
