@@ -43,12 +43,9 @@ export default function NewsPrelander() {
             🔴 Trending • Updated Today
           </p>
           <h1 className="text-2xl md:text-3xl font-bold mt-2 leading-tight md:leading-8">
-            Residents In <span className="text-green-500">{location}</span> Are Checking 
-            This Simple Way To Get Up To $50,000 — With <span className="text-green-500"> Lower Monthly Payments</span>
+            Residents In <span className="text-red-500">{location}</span> Are Checking 
+            This Simple Way To Get Loan Up To $50,000 — With <span className="text-red-500"> Lower Monthly Payments</span>
           </h1>
-          <p className="text-sm text-gray-500 mt-1">
-            By Financial Insights Desk • 2 min read
-          </p>
         </div>
 
         {/* Hero Image */}
@@ -78,7 +75,7 @@ export default function NewsPrelander() {
               ✔ No credit impact • ✔ Free check • ✔ Instant results
             </p>
             <Link href="https://h0mlr.ttrk.io/click" target="_blank">
-              <div className="mt-3 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md text-center">
+              <div className="mt-3 w-full py-3 rounded-xl bg-red-500 hover:bg-red-700 text-white text-base shadow-md text-center">
                 Check My Options →
               </div>
             </Link>
@@ -86,7 +83,7 @@ export default function NewsPrelander() {
 
           <p>
             According to recent data, over{" "}
-            <span className="font-semibold text-green-600">
+            <span className="font-semibold text-red-600">
               {approvalCount.toLocaleString()} people were approved this month
             </span>{" "}
             using a quick online check that takes less than 30 seconds.
@@ -122,7 +119,7 @@ export default function NewsPrelander() {
           {/* FINAL CTA */}
           <div className="text-center pt-2">
             <Link href="https://h0mlr.ttrk.io/click" target="_blank">
-              <div className="mt-5 w-full py-3 rounded-xl bg-green-500 hover:bg-green-600 text-white text-base shadow-md text-center">
+              <div className="mt-5 w-full py-3 rounded-xl bg-red-500 hover:bg-red-700 text-white text-base shadow-md text-center">
                 Check My Options →
               </div>
             </Link>
