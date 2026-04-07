@@ -7,8 +7,12 @@ import { useEffect, useState } from "react";
 export default function NewsPrelander() {
   const [location, setLocation] = useState("your area");
   const [approvalCount, setApprovalCount] = useState(11795);
+  const [liveUsers, setLiveUsers] = useState(12); // default stable value
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+
     // GEO LOCATION (CITY LEVEL)
     const fetchLocation = async () => {
       try {
@@ -16,7 +20,7 @@ export default function NewsPrelander() {
         const data = await res.json();
 
         if (data?.city) {
-          setLocation(data.city); // e.g. Delhi / Houston
+          setLocation(data.city);
         } else if (data?.region) {
           setLocation(data.region);
         }
@@ -27,11 +31,17 @@ export default function NewsPrelander() {
 
     // DYNAMIC NUMBERS
     const base = 11500;
-    const random = Math.floor(Math.random() * 800); // variation
+    const random = Math.floor(Math.random() * 800);
     setApprovalCount(base + random);
+
+    // FIXED: moved from JSX → here
+    setLiveUsers(Math.floor(Math.random() * 15) + 12);
 
     fetchLocation();
   }, []);
+
+  // 🔥 Prevent hydration mismatch
+  if (!mounted) return null;
 
   return (
     <div className="bg-gray-100 min-h-screen md:py-3 md:px-4">
@@ -44,7 +54,8 @@ export default function NewsPrelander() {
           </p>
           <h1 className="text-2xl md:text-3xl font-bold mt-2 leading-tight md:leading-8">
             Residents In <span className="text-red-500">{location}</span> Are Checking 
-            This Simple Way To Get Loan Up To $50,000 — With <span className="text-red-500"> Lower Monthly Payments</span>
+            This Simple Way To Get Loan Up To $50,000 — With{" "}
+            <span className="text-red-500">Lower Monthly Payments</span>
           </h1>
         </div>
 
@@ -106,7 +117,7 @@ export default function NewsPrelander() {
           <div className="bg-gray-50 border rounded-lg p-4">
             <p className="text-sm">⭐ Rated 4.8/5 by users</p>
             <p className="text-sm mt-1">
-              🔥 {Math.floor(Math.random() * 15) + 12} people in {location} are checking options right now
+              🔥 {liveUsers} people in {location} are checking options right now
             </p>
           </div>
 
@@ -115,7 +126,6 @@ export default function NewsPrelander() {
             they can save after checking their options.
           </p>
 
-          
           {/* FINAL CTA */}
           <div className="text-center pt-2">
             <Link href="https://h0mlr.ttrk.io/click" target="_blank">
