@@ -84,17 +84,12 @@ export default function Home() {
           View Options Now
         </a>
 
-        <div className="bg-gray-50 p-4 rounded-lg mb-4">
+        <div className="bg-gray-50 p-4 rounded-lg mb-10">
           <h2 className="font-semibold mb-2">Important</h2>
           <p className="text-sm text-gray-600">
             We are not a direct lender. We connect users with third-party partners. Approval and terms vary.
           </p>
         </div>
-
-        <a href="#" onClick={handleClick}
-          className="block text-center bg-green-500 text-black font-bold py-4 rounded-lg mb-14">
-          See If You Qualify
-        </a>
 
         <div className="text-xs text-gray-500 mt-6">
           <p>By using this site, you agree to Terms & Privacy Policy.</p>
