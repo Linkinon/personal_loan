@@ -3,7 +3,7 @@
 export default function Home() {
 
   const goOffer = () => {
-    window.location.href = "https://h0mlr.ttrk.io/69b99d45041bf2a9435571f6";
+    window.location.href = "https://h0mlr.ttrk.io/click";
   };
 
   return (
