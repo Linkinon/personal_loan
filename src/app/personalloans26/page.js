@@ -28,7 +28,7 @@ export default function Home() {
           <img
             src="/preimg.webp"
             alt="consumer reviewing finances"
-            className="w-full h-[178px] max-[700px]:h-[155px] max-[520px]:h-[136px] object-cover border border-[#cfcfcf] mb-[10px] contrast-[1.02] saturate-[0.92] bg-[#ddd]"
+            className="w-full h-[178px] object-center object-cover max-[700px]:h-[200px] max-[520px]:h-[136px] border border-[#cfcfcf] mb-[10px] contrast-[1.02] saturate-[0.92] bg-[#ddd]"
           />
 
           {/* CTA BOX */}
