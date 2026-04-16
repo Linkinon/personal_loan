@@ -26,7 +26,7 @@ export default function Home() {
 
           {/* HERO */}
           <img
-            src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80"
+            src="/preimg.webp"
             alt="consumer reviewing finances"
             className="w-full h-[178px] max-[700px]:h-[155px] max-[520px]:h-[136px] object-cover border border-[#cfcfcf] mb-[10px] contrast-[1.02] saturate-[0.92] bg-[#ddd]"
           />
