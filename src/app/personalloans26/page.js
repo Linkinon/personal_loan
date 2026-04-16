@@ -103,9 +103,9 @@ export default function Home() {
 
         {/* FOOTER */}
         <div className="border-t border-[#ddd] p-[12px] font-[Arial] text-[11px] text-[#666]">
-          <a href="#" className="text-[#555] mr-[12px]">Privacy Policy</a>
-          <a href="#" className="text-[#555] mr-[12px]">Terms</a>
-          <a href="#" className="text-[#555]">Affiliate Disclosure</a>
+          <a href="/privacy" className="text-[#555] mr-[12px]">Privacy Policy</a>
+          <a href="/terms" className="text-[#555] mr-[12px]">Terms</a>
+          {/* <a href="#" className="text-[#555]">Affiliate Disclosure</a> */}
         </div>
 
       </div>
