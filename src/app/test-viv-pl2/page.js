@@ -81,7 +81,7 @@ export default function Home() {
                 <span className="text-xl">▶</span>
             </div>
 
-            <p className="text-sm md:text-base text-red-600 font-semibold animate-pulse">
+            <p className="text-sm md:text-base text-red-600 font-semibold ">
               🔥 {count} people are checking this right now
             </p>
 
