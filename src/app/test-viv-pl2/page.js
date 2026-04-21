@@ -65,13 +65,13 @@ export default function Home() {
 
             <div onClick={goOffer}
                 className="bg-green-500 text-white  p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>💳 Need help paying bills?</span>
+                <span>💳 Medical Bills Piling Up? Get Help Fast</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-green-500 text-white  p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>🚗 Emergency expense?</span>
+                <span>🚗 Credit Card Bills Piling Up?</span>
                 <span className="text-xl">▶</span>
             </div>
 
