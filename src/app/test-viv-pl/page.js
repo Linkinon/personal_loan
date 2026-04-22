@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         {/* HERO */}
-        <div className="bg-white p-5 rounded-2xl shadow text-center">
+        <div className="bg-green-500 p-5 rounded-2xl shadow text-center">
           <h1 className="text-2xl font-bold mb-2">
             Check If You Qualify for Up to $35,000
           </h1>
@@ -30,32 +30,32 @@ export default function Home() {
         </div>
 
         {/* CLICKABLE CARDS */}
-        <div className="mt-4 space-y-3 text-blue-500">
+        <div className="mt-4 space-y-3 text-white">
           <div onClick={goOffer}
-                className="bg-white py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$1000 - $5000</span>
                 <span className="text-xl">▶</span>
             </div>
             <div onClick={goOffer}
-                className="bg-white py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$5000 - $15000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
-                className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$15000 - $25000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
-                className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$25000 - $35000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
-                className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$35000+</span>
                 <span className="text-xl">▶</span>
             </div>
