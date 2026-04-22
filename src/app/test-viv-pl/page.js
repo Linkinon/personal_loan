@@ -39,7 +39,7 @@ export default function Home() {
         {/* HERO */}
         <div className="bg-white p-5 rounded-2xl shadow text-center ">
           <h1 className="text-2xl font-bold mb-2">
-            Check If You Qualify for Up to $35,000
+            Check If You Qualify for Up to $5,000
           </h1>
 
           <p className="text-gray-600 mb-3">
@@ -53,30 +53,30 @@ export default function Home() {
         <div className="mt-4 space-y-3 text-white">
           <div onClick={goOffer}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$1000 - $5000</span>
+                <span>$100 - $1000</span>
                 <span className="text-xl">▶</span>
             </div>
             <div onClick={goOffer}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$5000 - $15000</span>
+                <span>$1000 - $2000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$15000 - $25000</span>
+                <span>$2000 - $3000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$25000 - $35000</span>
+                <span>$3000 - $4000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$35000+</span>
+                <span>$4000 - $5000</span>
                 <span className="text-xl">▶</span>
             </div>
 
