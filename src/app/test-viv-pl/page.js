@@ -5,6 +5,25 @@ export default function Home() {
   const goOffer = () => {
     window.location.href = "https://h0mlr.ttrk.io/click";
   };
+  const [count, setCount] = useState(0);
+   useEffect(() => {
+      // Function to generate random number
+      const generateRandom = () => {
+        const random = Math.floor(Math.random() * (180 - 60 + 1)) + 60; 
+        // range: 60–180 (you can tweak)
+        setCount(random);
+      };
+  
+      // Initial call
+      generateRandom();
+  
+      // Update every 5–10 sec randomly
+      const interval = setInterval(() => {
+        generateRandom();
+      }, Math.floor(Math.random() * 5000) + 5000);
+  
+      return () => clearInterval(interval);
+    }, []);
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -59,6 +78,10 @@ export default function Home() {
                 <span>$35000+</span>
                 <span className="text-xl">▶</span>
             </div>
+
+            <p className="text-sm md:text-base text-red-600 font-semibold ">
+              🔥 {count} people are checking this right now
+            </p>
 
         </div>
         
