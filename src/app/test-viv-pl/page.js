@@ -26,37 +26,37 @@ export default function Home() {
             Takes 2 minutes • No impact on credit score
           </p>
 
-          <button
-            onClick={goOffer}
-            className="w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold animate-pulse"
-          >
-            Check My Options →
-          </button>
+          
         </div>
 
         {/* CLICKABLE CARDS */}
         <div className="mt-4 space-y-3 text-blue-500">
+          <div onClick={goOffer}
+                className="bg-white py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                <span>$1000 - $5000</span>
+                <span className="text-xl">▶</span>
+            </div>
             <div onClick={goOffer}
                 className="bg-white py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>🚗 Home or Car Loan? Check Your Options in Minutes</span>
+                <span>$5000 - $15000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>💳 Need help paying bills?</span>
+                <span>$15000 - $25000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>🚗 Emergency expense?</span>
+                <span>$25000 - $35000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={goOffer}
                 className="bg-white p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>📉 Want to consolidate debt?</span>
+                <span>$35000+</span>
                 <span className="text-xl">▶</span>
             </div>
 
@@ -81,15 +81,7 @@ export default function Home() {
 
       </div>
 
-      {/* STICKY CTA */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white p-3 border-t">
-        <button
-          onClick={goOffer}
-          className="w-full bg-green-600 text-white py-3 rounded-xl"
-        >
-          Check Options →
-        </button>
-      </div>
+      
 
     </div>
   );
