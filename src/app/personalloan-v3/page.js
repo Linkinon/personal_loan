@@ -26,7 +26,7 @@ export default function Page() {
           {/* IMAGE */}
           <div className="mt-6">
             <img
-              src="/money.avif"
+              src="/money.png"
               alt="money"
               className="w-full rounded"
             />
