@@ -19,7 +19,7 @@ export default function Page() {
           {/* HEADLINE */}
           <h1 className="text-xl md:text-2xl font-bold leading-snug">
             Most Americans Are Eligible - Hardship Recovery Loans Of Up To
-            $40,000 To Help Pay For The Upcoming Holidays, Bills, Groceries, Or
+            $35,000 To Help Pay For The Upcoming Holidays, Bills, Groceries, Or
             Any Other Personal Expenses
           </h1>
 
@@ -34,13 +34,13 @@ export default function Page() {
 
           {/* IMAGE TAG LINE */}
           <div className="bg-[#e53935] text-white font-bold py-2 mt-[-4px] text-sm">
-            DIRECT DEPOSITS UP TO $40,000 ✅
+            DIRECT DEPOSITS UP TO $35,000 ✅
           </div>
 
           {/* PARAGRAPHS */}
           <div className="text-sm text-gray-200 mt-6 space-y-4 leading-relaxed">
             <p>
-              Americans are being awarded loans up to $40,000 to level up their
+              Americans are being awarded loans up to $35,000 to level up their
               finances after the recent financial hardship. The cash will be
               deposited directly into your account the next day. Check how much
               you are eligible to receive on the next page!
