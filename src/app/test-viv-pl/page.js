@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         {/* HERO */}
-        <div className="bg-green-500 p-5 rounded-2xl shadow text-center text-white">
+        <div className="bg-white p-5 rounded-2xl shadow text-center ">
           <h1 className="text-2xl font-bold mb-2">
             Check If You Qualify for Up to $35,000
           </h1>
