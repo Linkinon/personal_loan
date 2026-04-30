@@ -100,7 +100,7 @@ export default function Home() {
           <div className="border mt-3  bg-white">
             <div className="relative h-29.5 md:h-65  bg-linear-to-br from-gray-200 to-gray-50 flex items-center justify-center overflow-hidden">
 
-              <img src="/money.png" className="w-full h-full object-cover object-bottom "/>
+              <img src="/money2.png" className="w-full h-full object-cover object-bottom "/>
 
             </div>
           </div>
