@@ -222,7 +222,7 @@ export default function Home() {
               This is not a loan offer or approval. Availability depends on lender review, state, income, credit profile, and requested amount.
             </p>
 
-            <div className="flex gap-3 mt-2 underline">
+            <div className="flex gap-3 mt-2 underline justify-center">
               <a href="/privacy">Privacy Policy</a>
               <a href="/terms">Terms</a>
             </div>
