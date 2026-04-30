@@ -168,7 +168,7 @@ export default function Home() {
       Thank You
     </div>
     <p className="text-[14px] text-gray-600">
-      Based on your selection, there are currently no matching loan options available.
+      We are reviewing your information. Please check back later.
     </p>
   </div>
 )}
