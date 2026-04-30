@@ -2,6 +2,11 @@
 
 export default function Home() {
 
+const today = new Date().toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
   const handleClick = () => {
     window.location.href = "https://www.lpqqmb8trk.com/7BZ2W/58DZ97/?sub1={clickid}";
   };
@@ -27,8 +32,8 @@ export default function Home() {
 
         {/* DATE */}
         <div className="text-center text-[13px] text-gray-600 mt-3">
-          April 29, 2026
-          <div>(If They Do This)</div>
+            {today}
+            <div>(If They Do This)</div>
         </div>
 
         {/* QUIZ BOX */}
