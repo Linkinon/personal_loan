@@ -33,7 +33,7 @@ export default function Page() {
           </div>
 
           {/* IMAGE TAG LINE */}
-          <div className="bg-[#e53935] text-white font-bold py-2 mt-[-4px] text-sm">
+          <div className="bg-[#e53935] text-white font-bold py-2 -mt-1 text-sm">
             DIRECT DEPOSITS UP TO $35,000 ✅
           </div>
 
