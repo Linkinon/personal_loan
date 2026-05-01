@@ -3,9 +3,13 @@ import { useEffect,useState } from "react";
 
 export default function Home() {
 
-  const goOffer = () => {
-    window.location.href = "https://h0mlr.ttrk.io/click";
+  const smallLoan = () => {
+    window.location.href = "https://www.lpqqmb8trk.com/7BZ2W/5L55FG/?sub1={clickid}";
   };
+  const largeLoan = () => {
+    window.location.href = "https://www.lpqqmb8trk.com/7BZ2W/58DZ97/?sub1={clickid}";
+  };
+
   const [count, setCount] = useState(0);
    useEffect(() => {
       // Function to generate random number
@@ -51,30 +55,30 @@ export default function Home() {
 
         {/* CLICKABLE CARDS */}
         <div className="mt-4 space-y-3 text-white">
-          <div onClick={goOffer}
+          <div onClick={smallLoan}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$100 - $1000</span>
                 <span className="text-xl">▶</span>
             </div>
-            <div onClick={goOffer}
+            <div onClick={largeLoan}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$1000 - $2000</span>
                 <span className="text-xl">▶</span>
             </div>
 
-            <div onClick={goOffer}
+            <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$2000 - $3000</span>
                 <span className="text-xl">▶</span>
             </div>
 
-            <div onClick={goOffer}
+            <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$3000 - $4000</span>
                 <span className="text-xl">▶</span>
             </div>
 
-            <div onClick={goOffer}
+            <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$4000 - $5000</span>
                 <span className="text-xl">▶</span>
