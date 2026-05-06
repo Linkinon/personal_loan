@@ -43,7 +43,8 @@ export default function Home() {
         {/* HERO */}
         <div className="bg-white p-5 rounded-2xl shadow text-center ">
           <h1 className="text-2xl font-bold mb-2">
-            Check If You Qualify for Up to $35,000
+          Struggling with Credit Card Debt? Americans with $10K+ Debt May Qualify for Debt Consolidation Options Up to $35,000 to Help Manage Bills, Reduce Balances, and Simplify Payments
+ 
           </h1>
 
           <p className="text-gray-600 mb-3">
