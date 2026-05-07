@@ -11,7 +11,7 @@ export default function Home() {
     const [loading, setLoading] = useState(false);
 
   const SMALL_LOAN_URL = "https://www.lpqqmb8trk.com/7BZ2W/5L55FG/?sub1={clickid}";
-  const LARGE_LOAN_URL = "https://www.lpqqmb8trk.com/7BZ2W/58DZ97/?sub1={clickid}";
+  const LARGE_LOAN_URL = "https://h0mlr.ttrk.io/click";
 
   const handleAmountSelect = (value) => {
     setSelectedAmount(value);

@@ -60,13 +60,13 @@ export default function NewsPrelander() {
         </div>
 
         {/* Hero Image */}
-        <div className="w-full bg-gray-300 flex items-center justify-center text-gray-500 overflow-hidden md:max-h-[260px]">
+        <div className="w-full bg-gray-300 flex items-center justify-center text-gray-500 overflow-hidden md:max-h-65">
           <Image
             alt="personal-loan image"
             src={"/personal-loan.jpeg"}
             width={800}
             height={400}
-            className="object-contain md:object-cover w-full h-auto md:h-[260px]"
+            className="object-contain md:object-cover w-full h-auto md:h-65"
             priority
           />
         </div>
