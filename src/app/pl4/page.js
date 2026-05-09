@@ -8,7 +8,7 @@ const today = new Date().toLocaleDateString("en-US", {
   day: "numeric",
 });
   const handleClick = () => {
-    window.location.href = "https://www.lpqqmb8trk.com/7BZ2W/58DZ97/?sub1={clickid}";
+    window.location.href = "https://h0mlr.ttrk.io/click";
   };
 
   return (
