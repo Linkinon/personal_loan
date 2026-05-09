@@ -61,7 +61,7 @@ export default function Home() {
           <p>✔ Check options without impacting credit score</p>
         </div>
 
-        <a href="#" onClick={handleClick}
+        <a onClick={handleClick}
           className="block text-center bg-green-500 text-black font-bold py-4 rounded-lg mb-3">
           Check Available Options
         </a>
@@ -79,7 +79,7 @@ export default function Home() {
           <p>3️⃣ Review and choose an option</p>
         </div>
 
-        <a href="#" onClick={handleClick}
+        <a onClick={handleClick}
           className="block text-center bg-blue-600 text-white font-bold py-4 rounded-lg mb-4">
           View Options Now
         </a>
@@ -91,7 +91,7 @@ export default function Home() {
           </p>
         </div>
 
-        <a href="#" onClick={handleClick}
+        <a  onClick={handleClick}
           className="block text-center bg-green-500 text-black font-bold py-4 rounded-lg mb-14">
           See If You Qualify
         </a>
