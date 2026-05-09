@@ -69,7 +69,6 @@ export default function Page() {
 
       {/* FOOTER */}
       <footer className="bg-white text-center text-xs text-black py-6">
-        <p>thethrivewallet.com © 2022</p>
         <div className="mt-2 space-x-4">
           <a href="/privacy" className="underline">
             Privacy Policy
