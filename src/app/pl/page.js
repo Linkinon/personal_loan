@@ -54,7 +54,7 @@ export default function NewsPrelander() {
           </p>
           <h1 className="text-2xl md:text-3xl font-bold mt-2 leading-tight md:leading-8">
             Residents In <span className="text-red-500">{location}</span> Are Checking 
-            This Simple Way To Get Loan Up To $50,000 — With{" "}
+            This Simple Way To Get Loan Up To $20,000 — With{" "}
             <span className="text-red-500">Lower Monthly Payments</span>
           </h1>
         </div>
