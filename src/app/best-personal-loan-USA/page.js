@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100 min-h-screen">
 
-      <div className="max-w-xl mx-auto p-4 pb-24">
+      <div className="max-w-lg mx-auto p-4 pb-24">
 
         {/* TOP HOOK */}
         <div className="bg-red-600 text-white text-center py-2 text-sm rounded-xl mb-3">
