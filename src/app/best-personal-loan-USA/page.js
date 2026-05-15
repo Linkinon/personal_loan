@@ -43,7 +43,7 @@ export default function Home() {
         {/* HERO */}
         <div className="bg-white p-5 rounded-2xl shadow text-center ">
           <h1 className="text-2xl font-bold mb-2">
-          Struggling with Credit Card Debt? Americans with $10K+ Debt May Qualify for Debt Consolidation Options Up to $35,000 to Help Manage Bills, Reduce Balances, and Simplify Payments
+          Explore Your Options for <span className="text-red-600">$5,000</span>  or More
  
           </h1>
 
@@ -58,30 +58,30 @@ export default function Home() {
         <div className="mt-4 space-y-3 text-white">
           <div onClick={smallLoan}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$1000 - $5000</span>
+                <span>$100 - $1000</span>
                 <span className="text-xl">▶</span>
             </div>
             <div onClick={largeLoan}
                 className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$5000 - $10,000</span>
+                <span>$1000 - $2000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$10,000 - $15,000</span>
+                <span>$2000 - $3000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$15,000 - $25,000</span>
+                <span>$3000 - $4000</span>
                 <span className="text-xl">▶</span>
             </div>
 
             <div onClick={largeLoan}
                 className="bg-green-500 p-4 rounded-xl shadow cursor-pointer flex items-center justify-between">
-                <span>$25,000 - $35,000</span>
+                <span>$4000 - $5000</span>
                 <span className="text-xl">▶</span>
             </div>
 
