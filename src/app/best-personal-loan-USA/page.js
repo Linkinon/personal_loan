@@ -94,7 +94,7 @@ export default function Home() {
         {/* ✅ YOUR CHECKLIST SECTION */}
         <div className="mt-6 bg-white p-5 rounded-2xl shadow text-gray-800">
           <ul className="space-y-3 text-sm">
-            <li>✓ Loan amounts from $1,000 to $35,000</li>
+            <li>✓ Loan amounts from $100 to $5000</li>
             <li>✓ Fast approval decisions</li>
             <li>✓ Funds may be available next business day</li>
             <li>✓ All credit types considered</li>
