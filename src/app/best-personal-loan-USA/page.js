@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100 min-h-screen">
 
-      <div className="max-w-md mx-auto p-4 pb-24">
+      <div className="max-w-xl mx-auto p-4 pb-24">
 
         {/* TOP HOOK */}
         <div className="bg-red-600 text-white text-center py-2 text-sm rounded-xl mb-3">
@@ -57,7 +57,7 @@ export default function Home() {
         {/* CLICKABLE CARDS */}
         <div className="mt-4 space-y-3 text-white">
           <div onClick={smallLoan}
-                className="bg-green-500 py-4 px-3 rounded-xl shadow cursor-pointer flex items-center justify-between">
+                className="bg-green-500 py-4 px-5 rounded-xl shadow cursor-pointer flex items-center justify-between">
                 <span>$100 - $1000</span>
                 <span className="text-xl">▶</span>
             </div>
