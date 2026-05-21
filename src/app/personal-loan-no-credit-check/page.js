@@ -10,8 +10,8 @@ export default function Home() {
     const [selectedIncome, setSelectedIncome] = useState(null);
     const [loading, setLoading] = useState(false);
 
-  const SMALL_LOAN_URL = "https://www.lpqqmb8trk.com/7BZ2W/5L55FG/?sub1={clickid}";
-  const LARGE_LOAN_URL = "https://h0mlr.ttrk.io/click";
+  const SMALL_LOAN_URL = "https://h0mlr.ttrk.io/click";
+  const LARGE_LOAN_URL = "https://www.lpqqmb8trk.com/7BZ2W/5C6PQF/?sub1={clickid}";
 
   const handleAmountSelect = (value) => {
     setSelectedAmount(value);
@@ -41,16 +41,19 @@ export default function Home() {
 
   setTimeout(() => {
     if (answer === "yes") {
-      setStep(3);
-      setLoading(false);
+      // setStep(3);
+      // setLoading(false);
+      window.location.href = LARGE_LOAN_URL;
     } else {
-      if (selectedAmount === "under_5000") {
-        window.location.href = SMALL_LOAN_URL;
-      } else {
-        window.location.href = LARGE_LOAN_URL;
-      }
+      window.location.href = SMALL_LOAN_URL;
+
+      // if (selectedAmount === "under_5000") {
+      //   window.location.href = SMALL_LOAN_URL;
+      // } else {
+      //   window.location.href = LARGE_LOAN_URL;
+      // }
     }
-  }, 600);
+  }, );
 };
 
 
@@ -88,11 +91,11 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-[29px] font-black leading-tight">
-            Looking For <span className="text-red-700">$10K–$35K</span> In Personal Loan Options?
+            Looking For <span className="text-red-700">$1K–$5K</span> In Personal Loan Options?
           </h1>
 
           <p className="text-[13px] font-semibold text-gray-700 mt-2">
-            Most Americans Are Eligible - Hardship Recovery Loans Of Up To $35,000 To Help Pay For 
+            Most Americans Are Eligible - Hardship Recovery Loans Of Up To $5,000 To Help Pay For 
             The Upcoming Holidays, Bills, Groceries, Or Any Other Personal Expenses.
           </p>
 
@@ -100,7 +103,7 @@ export default function Home() {
           <div className="border mt-3  bg-white">
             <div className="relative h-29.5 md:h-65  bg-linear-to-br from-gray-200 to-gray-50 flex items-center justify-center overflow-hidden">
 
-              <img src="/money2.png" className="w-full h-full object-cover object-bottom "/>
+              <img src="/deposit.png" className="w-full h-full object-cover object-bottom "/>
 
             </div>
           </div>
@@ -108,33 +111,9 @@ export default function Home() {
           {/* Router */}
           <div className="border-2 border-black shadow-[5px_5px_0_black] p-3 mt-3 bg-white">
 
-      {/* STEP 1 */}
+      
+
       {step === 1 && (
-        <>
-          <div className="font-black text-[15px] mb-2">
-            How much are you looking to borrow?
-          </div>
-
-          {[
-            { value: "under_5000", title: "Under $5,000" },
-            { value: "5000_9999", title: "$5,000 – $9,999" },
-            { value: "10000_35000", title: "$10,000 – $35,000" },
-          ].map((item) => (
-            <button
-              key={item.value}
-              onClick={() => handleAmountSelect(item.value)}
-              className="w-full border-2 mb-2 p-2 flex justify-between items-center text-left border-gray-300 bg-red-600 text-white"
-            >
-              <div className="font-bold text-[17px]">
-                {item.title}
-              </div>
-              <div className="text-[22px] font-black">›</div>
-            </button>
-          ))}
-        </>
-      )}
-
-      {step === 2 && (
   <>
     <div className="font-black text-[15px] mb-2">
       Do you currently receive benefits?
@@ -142,7 +121,7 @@ export default function Home() {
 
     <button
       onClick={() => handleAnswer("yes")}
-      className="w-full border-2 mb-2 p-3 flex justify-between items-center border-gray-300 bg-gray-300 text-black hover:bg-gray-400"
+      className="w-full border-2 mb-2 p-3 flex justify-between items-center border-gray-300 bg-[#b4280f] text-white hover:bg-red-800"
     >
       <div className="font-bold text-[17px]">
         Yes
@@ -152,7 +131,7 @@ export default function Home() {
 
     <button
       onClick={() => handleAnswer("no")}
-      className="w-full border-2 mb-2 p-3 flex justify-between items-center border-gray-300 bg-gray-300 text-black hover:bg-gray-400"
+      className="w-full border-2 mb-2 p-3 flex justify-between items-center border-gray-300 bg-[#b4280f] text-white hover:bg-red-800"
     >
       <div className="font-bold text-[17px]">
         No
@@ -162,7 +141,7 @@ export default function Home() {
   </>
 )}
 
-      {step === 3 && (
+      {/* {step === 3 && (
   <div className="text-center py-6">
     <div className="text-[20px] font-black mb-2">
       Thank You
@@ -171,7 +150,7 @@ export default function Home() {
       We are reviewing your information. Please check back later.
     </p>
   </div>
-)}
+)} */}
 
       {/* LOADING */}
       {loading && (
