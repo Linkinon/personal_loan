@@ -18,7 +18,7 @@ export default function Page() {
 
           {/* HEADLINE */}
           <h1 className="text-xl md:text-2xl font-bold leading-snug">
-            Most Americans May Be Eligible For Loans Up To $40,000 (Even with bad credit) 
+            Most Americans May Be Eligible For Loans Up To $40,000  
             to help pay for the Credit Card debt, Debt Consolidation, Major Expenses, 
             Or Emergency Expenses.
           </h1>
@@ -37,26 +37,6 @@ export default function Page() {
             DIRECT DEPOSITS UP TO $40,000 ✅
           </div>
 
-          {/* PARAGRAPHS */}
-          <div className="text-sm text-gray-200 mt-6 space-y-4 leading-relaxed">
-            <p>
-              Americans are being awarded loans up to $40,000 to level up their
-              finances after the recent financial hardship. The cash will be
-              deposited directly into your account the next day. Check how much
-              you are eligible to receive on the next page!
-            </p>
-
-            <p>
-              This is part of a 2024 Hardship Recovery Plan to help Americans
-              recover from the recent unstable economy
-            </p>
-
-            <p>
-              It costs nothing to check and only takes around 60 seconds. Tap the
-              button below to get started:
-            </p>
-          </div>
-
           {/* CTA BUTTON */}
           <a
             href={CLICK_URL}
@@ -64,6 +44,26 @@ export default function Page() {
           >
             CHECK ELIGIBILITY HERE &gt;&gt;
           </a>
+
+          {/* PARAGRAPHS */}
+          <div className="text-sm text-gray-200 mt-6 space-y-4 leading-relaxed">
+            <p>
+              Check personal loan options up to $40,000 for debt consolidation, home improvements,  
+              Credit Card Bills, major purchases, or other large expenses. 
+              Checking available options from participating lending partners is free and will not 
+              affect your credit score.
+            </p>
+
+            <p>
+              To continue, you should have regular income from employment, self-employment, 
+              an active bank account, and a valid U.S. address. Approval is not guaranteed and 
+              depends on lender criteria, income, credit profile, state availability, and bank 
+              processing times. Benefits-only income may not be accepted by some lending partners.
+            </p>
+
+          </div>
+
+          
         </div>
       </div>
 
