@@ -122,8 +122,8 @@ export default function Page() {
             </h1>
 
             <p className="mt-[19px] max-w-[650px] text-[18px] leading-[1.5] text-[#3f5750] max-[620px]:mt-3 max-[620px]:text-[16px] max-[620px]:leading-[1.42]">
-              Compare <span className="text-[#ff7a1a]">personal loan</span> options for <span className="text-[#ff7a1a]">home repairs</span>, <span className="text-[#ff7a1a]">debt consolidation</span>, <span className="text-[#ff7a1a]"> moving costs</span>, a <span className="text-[#ff7a1a]">major purchase</span> or another 
-              <span className="text-[#ff7a1a]"> planned expense</span>. See what may be available before making a decision.
+              Compare <span className="text-[#ff7a1a] font-semibold">personal loan</span> options for <span className="text-[#ff7a1a] font-semibold">home repairs</span>, <span className="text-[#ff7a1a] font-semibold">debt consolidation</span>, <span className="text-[#ff7a1a] font-semibold"> moving costs</span>, a <span className="text-[#ff7a1a] font-semibold">major purchase</span> or another 
+              <span className="text-[#ff7a1a] font-semibold"> planned expense</span>. See what may be available before making a decision.
             </p>
 
             <div className="mt-5 grid grid-cols-[auto_1fr] gap-[13px] rounded-[15px] border border-[#bfead6] bg-gradient-to-br from-[#effff7] to-[#f9fff4] p-[16px_17px] shadow-[inset_5px_0_0_#13c98a] max-[620px]:mt-[14px] max-[620px]:gap-[10px] max-[620px]:p-3">
@@ -176,15 +176,16 @@ export default function Page() {
                 <Icon className="h-[17px] w-[17px] shrink-0 text-[#13c98a] max-[620px]:h-[14px] max-[620px]:w-[14px]">
                   <path d="m4 13 5 5L20 7" />
                 </Icon>
-                One-click forwarder
+                Takes 2 Minute
               </div>
 
               <div className="flex min-h-[55px] items-center justify-center gap-[7px] rounded-[11px] border border-[#e0eee7] bg-[#f5faf7] px-2 py-[10px] text-center text-[11px] font-[850] text-[#425b53] max-[620px]:min-h-[48px] max-[620px]:gap-1 max-[620px]:px-1 max-[620px]:py-2 max-[620px]:text-[9.5px]">
                 <Icon className="h-[17px] w-[17px] shrink-0 text-[#13c98a] max-[620px]:h-[14px] max-[620px]:w-[14px]">
-                  <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
-                  <path d="M3 12h18M12 3c2.4 2.5 3.7 5.5 3.7 9S14.4 18.5 12 21c-2.4-2.5-3.7-5.5-3.7-9S9.6 5.5 12 3Z" />
+                    <rect x="2" y="5" width="20" height="14" rx="2" />
+                    <path d="M2 10h20" />
+                    <path d="M6 15h4" />
                 </Icon>
-                U.S. residents
+                No Credit Impact
               </div>
             </div>
           </div>
