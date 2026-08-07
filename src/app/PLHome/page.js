@@ -74,7 +74,7 @@ export default function Page() {
               <div className="absolute bottom-0 left-0 top-0 w-[6px] bg-[linear-gradient(180deg,#1b6f9f_0%,#45a7cf_48%,#f36b21_100%)]" />
 
               <div className="inline-flex items-center gap-2 rounded-full border border-[#c9dce8] bg-[#f1f8fc] px-3 py-2 text-[10px] font-black uppercase tracking-[0.12em] text-red-600 sm:text-[11px]">
-                <span className="grid h-5 w-5 place-items-center rounded-full bg-[#176b9c] text-white">
+                <span className="grid h-5 w-5 place-items-center rounded-full bg-red-600 text-white">
                   <Icon className="h-3 w-3">
                     <path d="M3 11.5 12 4l9 7.5" />
                     <path d="M5.5 10v10h13V10" />
@@ -342,11 +342,10 @@ export default function Page() {
               </Icon>
             </span>
             <h2 className="mt-3 text-[19px] font-black tracking-[-0.035em] text-[#15344e]">
-              One-click forwarder
+              No Credit Impact
             </h2>
             <p className="mt-2 text-[13px] leading-6 text-[#637789]">
-              No quiz, debt-range selector or second decision before the
-              lender-matching form.
+              Checking available options won’t affect your credit score..
             </p>
           </article>
         </section>
