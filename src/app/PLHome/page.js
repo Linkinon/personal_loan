@@ -73,14 +73,14 @@ export default function Page() {
             <div className="relative px-5 pb-6 pt-5 sm:px-8 sm:py-8 lg:px-12 lg:py-11">
               <div className="absolute bottom-0 left-0 top-0 w-[6px] bg-[linear-gradient(180deg,#1b6f9f_0%,#45a7cf_48%,#f36b21_100%)]" />
 
-              <div className="inline-flex items-center gap-2 rounded-full border border-[#c9dce8] bg-[#f1f8fc] px-3 py-2 text-[10px] font-black uppercase tracking-[0.12em] text-[#17618f] sm:text-[11px]">
+              <div className="inline-flex items-center gap-2 rounded-full border border-[#c9dce8] bg-[#f1f8fc] px-3 py-2 text-[10px] font-black uppercase tracking-[0.12em] text-red-600 sm:text-[11px]">
                 <span className="grid h-5 w-5 place-items-center rounded-full bg-[#176b9c] text-white">
                   <Icon className="h-3 w-3">
                     <path d="M3 11.5 12 4l9 7.5" />
                     <path d="M5.5 10v10h13V10" />
                   </Icon>
                 </span>
-                Home Improvement Financing
+                Loan For Home Improvement
               </div>
 
               <h1 className="mt-4 max-w-[700px] text-[40px] font-black leading-[0.98] tracking-[-0.06em] text-[#15344e] sm:text-[48px] md:text-[56px] lg:text-[64px]">
