@@ -180,7 +180,7 @@ export default function CreditCardConsolidationPage() {
             {/* COPY / CTA SIDE */}
             <div className="order-1 px-5 py-3 sm:px-8 sm:py-8 lg:order-2 lg:px-12 lg:py-12">
               <p className="text-[11px] font-black uppercase tracking-[0.18em] text-red-600 ">
-                CREDIT CARD + DEBT CONSOLIDATION LOAN FOR 
+                LOAN FOR  CREDIT CARD + DEBT CONSOLIDATION 
               </p>
 
               <h1 className="mt-1 max-w-[680px] font-[Georgia,Times_New_Roman,serif] text-[34px] font-bold leading-[0.98] tracking-[-0.045em] text-[#21313d] sm:text-[50px] md:text-[58px] lg:text-[64px]">
