@@ -346,6 +346,14 @@ export default function CreditCardConsolidationPage() {
         </section>
 
         <footer className="mx-auto max-w-[1020px] px-3 pb-7 pt-5 text-center text-[10px] leading-[1.6] text-[#7e868d]">
+          <div className="mt-2 space-x-4">
+          <a href="/privacy" className="underline">
+            Privacy Policy
+          </a>
+          <a href="/terms" className="underline">
+            Terms of Service
+          </a>
+        </div>
           <strong className="text-[#505e68]">Disclosure:</strong> This page is
           an advertisement and is not a lender or debt-relief company. It does
           not make credit decisions, settle debt or guarantee approval,

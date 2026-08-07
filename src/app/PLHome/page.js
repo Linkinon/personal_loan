@@ -352,6 +352,14 @@ export default function Page() {
         </section>
 
         <footer className="mx-auto max-w-[1040px] px-3 pb-7 pt-5 text-center text-[10px] leading-[1.6] text-[#778692]">
+          <div className="mt-2 space-x-4">
+          <a href="/privacy" className="underline">
+            Privacy Policy
+          </a>
+          <a href="/terms" className="underline">
+            Terms of Service
+          </a>
+        </div>
           <strong className="text-[#4c6070]">Disclosure:</strong> This page is
           an advertisement and is not a lender, contractor or home-improvement
           company. It does not make credit decisions, provide repair estimates
