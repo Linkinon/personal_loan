@@ -183,7 +183,7 @@ export default function CreditCardConsolidationPage() {
                 LOAN FOR  CREDIT CARD + DEBT CONSOLIDATION 
               </p>
 
-              <h1 className="mt-1 max-w-[680px] font-[Georgia,Times_New_Roman,serif] text-[34px] font-bold leading-[0.98] tracking-[-0.045em] text-[#5d6b75] sm:text-[50px] md:text-[58px] lg:text-[64px]">
+              <h1 className="mt-1 max-w-[680px] font-[Georgia,Times_New_Roman,serif] text-[34px] font-bold leading-[0.98] tracking-[-0.045em] text-[#253b4c] sm:text-[50px] md:text-[58px] lg:text-[64px]">
                 Stop treating every balance like a separate problem.
               </h1>
 
