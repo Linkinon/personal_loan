@@ -183,21 +183,21 @@ export default function CreditCardConsolidationPage() {
                 LOAN FOR  CREDIT CARD + DEBT CONSOLIDATION 
               </p>
 
-              <h1 className="mt-1 max-w-[680px] font-[Georgia,Times_New_Roman,serif] text-[34px] font-bold leading-[0.98] tracking-[-0.045em] text-[#21313d] sm:text-[50px] md:text-[58px] lg:text-[64px]">
+              <h1 className="mt-1 max-w-[680px] font-[Georgia,Times_New_Roman,serif] text-[34px] font-bold leading-[0.98] tracking-[-0.045em] text-[#5d6b75] sm:text-[50px] md:text-[58px] lg:text-[64px]">
                 Stop treating every balance like a separate problem.
               </h1>
 
               <p className="mt-3 max-w-[680px] text-[16px] leading-6 text-[#5d6b75] sm:text-[17px] md:text-[18px] md:leading-7">
                 Compare personal loan options that may help consolidate{" "}
-                <strong className="font-black text-[#21313d]">
+                <strong className="font-black text-[#b9572f]">
                   credit card balances
                 </strong>
                 ,{" "}
-                <strong className="font-black text-[#21313d]">
+                <strong className="font-black text-[#b9572f]">
                   personal loans
                 </strong>
                 ,{" "}
-                <strong className="font-black text-[#21313d]">
+                <strong className="font-black text-[#b9572f]">
                   medical bills
                 </strong>{" "}
                 and other eligible unsecured debt into a single new loan.
