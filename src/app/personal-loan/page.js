@@ -112,6 +112,80 @@ function CTA({
 }
 
 /* =========================================================
+   SEPARATE HERO CTA
+========================================================= */
+
+function HeroCTA() {
+  return (
+    <div className="mt-3 sm:mt-4">
+      <a
+        href={CTA_URL}
+        className="
+          group
+          flex
+          w-full
+          items-center
+          justify-between
+          rounded-[15px]
+          border-[3px]
+          border-white/15
+          bg-[#ff3426]
+          px-5
+          py-[17px]
+          text-white
+          shadow-[0_12px_28px_rgba(0,0,0,.22)]
+          transition
+          duration-200
+          hover:-translate-y-[1px]
+          hover:bg-[#e9291c]
+
+          sm:px-7
+          sm:py-[18px]
+
+          lg:px-8
+          lg:py-[20px]
+        "
+      >
+        <div className="flex flex-col">
+          <span className="text-[9px] font-black uppercase tracking-[0.16em] text-white/75 sm:text-[10px]">
+            Check your available options
+          </span>
+
+          <span className="mt-1 text-[20px] font-black uppercase leading-none tracking-[-0.02em] sm:text-[23px] lg:text-[27px]">
+            Check For Options
+          </span>
+        </div>
+
+        <span
+          className="
+            flex
+            h-12
+            w-12
+            shrink-0
+            items-center
+            justify-center
+            rounded-full
+            bg-white
+            text-[#ff3426]
+            shadow-[0_5px_14px_rgba(0,0,0,.16)]
+            transition
+            group-hover:translate-x-1
+
+            sm:h-13
+            sm:w-13
+
+            lg:h-14
+            lg:w-14
+          "
+        >
+          <Arrow className="h-6 w-6 lg:h-7 lg:w-7" />
+        </span>
+      </a>
+    </div>
+  );
+}
+
+/* =========================================================
    DESKTOP HERO CARDS
 ========================================================= */
 
@@ -192,7 +266,7 @@ function DesktopLargeCard() {
 
 function DesktopConsolidationCard() {
   return (
-    <div className="absolute bottom-[20%] right-[3.5%] w-[36%] rounded-[17px] border border-[#dce1e5] bg-white p-2 shadow-[0_9px_24px_rgba(0,0,0,.18)]">
+    <div className="absolute bottom-[8%] right-[3.5%] w-[36%] rounded-[17px] border border-[#dce1e5] bg-white p-2 shadow-[0_9px_24px_rgba(0,0,0,.18)]">
       <div className="flex items-center gap-4">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#0e4869] text-white">
           <Arrow />
@@ -251,7 +325,7 @@ function DesktopHeroComposition() {
         shadow-[0_16px_34px_rgba(0,0,0,.28)]
         lg:block
       "
-      style={{ aspectRatio: "16 / 8.7" }}
+      style={{ aspectRatio: "16 / 7.5" }}
     >
       {/* IMAGE */}
       <img
@@ -266,10 +340,7 @@ function DesktopHeroComposition() {
       {/* BOTTOM FADE */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20" />
 
-      {/* YELLOW LABEL */}
-      <div className="absolute left-0 top-0 rounded-br-[13px] bg-[#f7d429] px-5 py-4 text-[11px] font-black uppercase tracking-[0.09em] text-[#12374d]">
-        Monthly Debt Pressure
-      </div>
+     
 
       {/* RIGHT TITLE */}
       <div className="absolute right-[4%] top-[5%] w-[35%]">
@@ -282,43 +353,24 @@ function DesktopHeroComposition() {
           <br />
           crowded fast.
         </h2>
-
       </div>
 
       {/* CARDS */}
-
       <DesktopSmallCard
         label="CARD 01"
         title="Credit card statement"
-        className="right-[2.7%] top-[25%] h-[10.5%] w-[34%] rotate-[1deg]"
+        className="right-[2.7%] top-[25%] h-[12%] w-[34%] rotate-[1deg]"
       />
 
       <DesktopLargeCard />
 
       <DesktopConsolidationCard />
-
-      {/* FULL WIDTH CTA */}
-      <a
-        href={CTA_URL}
-        className="absolute inset-x-0 bottom-0 flex h-[12.5%] items-center justify-between bg-[#ff3426] px-7 text-white transition hover:bg-[#e9291c]"
-      >
-        <span className="text-[28px] font-black uppercase tracking-[-0.02em]">
-          Too many payments? Check your options.
-        </span>
-
-        <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white text-[#ff3426]">
-          <Arrow className="h-6 w-6" />
-        </span>
-      </a>
     </div>
   );
 }
 
 /* =========================================================
    MOBILE HERO CARDS
-
-   Same visual composition as desktop,
-   but dimensions are intentionally tuned for phone screens.
 ========================================================= */
 
 function MobileSmallCard({
@@ -398,7 +450,7 @@ function MobileLargeCard() {
 
 function MobileConsolidationCard() {
   return (
-    <div className="absolute bottom-[17%] right-[2.5%] w-[40%] rounded-[9px] border border-[#dce1e5] bg-white p-2 shadow-[0_5px_12px_rgba(0,0,0,.19)]">
+    <div className="absolute bottom-[4%] right-[2.5%] w-[40%] rounded-[9px] border border-[#dce1e5] bg-white p-2 shadow-[0_5px_12px_rgba(0,0,0,.19)]">
       <div className="flex items-center gap-2">
         <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0e4869] text-white">
           <Arrow className="h-3 w-3" />
@@ -507,31 +559,6 @@ function MobileHeroComposition() {
       <MobileLargeCard />
 
       <MobileConsolidationCard />
-
-      {/* BIG MOBILE CTA */}
-      <a
-        href={CTA_URL}
-        className="
-          absolute
-          inset-x-0
-          bottom-0
-          flex
-          h-[17%]
-          items-center
-          justify-between
-          bg-[#ff3426]
-          px-4
-          text-white
-        "
-      >
-        <span className="max-w-[84%] text-[13px] font-black uppercase leading-[1.05] tracking-[-0.015em]">
-          Too many payments? Check your options.
-        </span>
-
-        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-[#ff3426]">
-          <Arrow className="h-5 w-5" />
-        </span>
-      </a>
     </div>
   );
 }
@@ -562,27 +589,20 @@ export default function Page() {
           <div className="mx-auto max-w-[1010px]">
             {/* PAGE HEADING */}
             <div className="text-center">
-              <div className="inline-flex rounded-[6px] bg-[#f6d32c] px-3 py-[6px] text-[9px] font-black uppercase tracking-[0.13em] text-[#12374d] sm:text-[10px]">
-                Debt Consolidation Report
-              </div>
 
-              <h1 className="mx-auto mt-3 max-w-[790px] text-[25px] font-black leading-[1.04] tracking-[-0.035em] sm:text-[32px] lg:text-[38px]">
-                Too many payments can make every
-                payday feel already spent.
+              <h1 className="mx-auto max-w-[790px] text-[25px] font-bold leading-[1.04] tracking-[-0.035em] sm:text-[32px] lg:text-[38px]">
+                Need Help With Debt or Unexpected Expenses? You May Qualify for a Loan.
               </h1>
 
-              <p className="mx-auto mt-3 max-w-[760px] text-[12px] leading-5 text-white/85 sm:text-[14px] sm:leading-6 lg:text-[15px]">
-                Credit cards, personal loans and other eligible
-                debt can stack up fast. See whether a consolidation
-                loan may help bring several balances under one new
-                payment plan.
-              </p>
             </div>
 
             {/* HERO COMPOSITIONS */}
             <div className="mt-5 sm:mt-6">
               <DesktopHeroComposition />
               <MobileHeroComposition />
+
+              {/* SEPARATE CTA */}
+              <HeroCTA />
             </div>
 
             {/* SUPPORT COPY */}
@@ -590,37 +610,20 @@ export default function Page() {
               The idea is simple: fewer separate balances
               to chase and one clearer payment schedule to review.
             </p>
+
+            <p className="mx-auto mt-3 max-w-[960px] text-center text-[12px] leading-5 text-white/85 sm:text-[14px] sm:leading-6 lg:text-[13px]">
+              Americans are being awarded loans up to $40,000 to level up their finances after the recent financial hardship. The cash will be deposited directly into your account the next day. Check how much you are eligible to receive on the next page!
+              <br />
+              This is part of a 2024 Hardship Recovery Plan to help Americans recover from the recent unstable economy
+              <br />
+              It costs nothing to check and only takes around 60 seconds. Tap the button below to get started:
+            </p>
           </div>
         </section>
 
         {/* ELIGIBILITY */}
         <section className="border-t-[4px] border-[#f5cf2e] bg-[#faf7f1] px-3 py-5 sm:px-7 sm:py-6">
           <div className="mx-auto max-w-[720px]">
-            <div className="rounded-[16px] bg-[#154761] px-4 py-4 text-white shadow-[0_8px_22px_rgba(18,58,80,.16)] sm:px-5">
-              <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#f2b69b] text-[#173d53]">
-                  <BriefcaseIcon />
-                </div>
-
-                <div>
-                  <div className="text-[9px] font-black uppercase tracking-[0.15em] text-[#ffc070]">
-                    Better suited to
-                  </div>
-
-                  <p className="mt-1 text-[13px] font-extrabold leading-5 sm:text-[16px]">
-                    People who are currently working and
-                    receive regular earned income.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-4">
-              <CTA>
-                COMPARE CONSOLIDATION LOAN OPTIONS
-              </CTA>
-            </div>
-
             <p className="mt-3 text-center text-[9px] leading-4 text-[#64727a] sm:text-[10px]">
               Continue to the lender-matching form.
               Clicking does not accept a loan or guarantee
@@ -660,8 +663,6 @@ export default function Page() {
           </p>
         </footer>
       </div>
-
-
     </main>
   );
 }
